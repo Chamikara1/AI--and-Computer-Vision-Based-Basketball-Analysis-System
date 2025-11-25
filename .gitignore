@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+
+# Video files
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Pickle stubs (generated at runtime)
+*.pkl
+
+# Build artifacts
+webapp/dist/
